@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "CopyTrader",
+    "slug": "copytrader",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0A0A0A"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.copytrader",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Used to secure your account credentials"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A0A"
+      },
+      "package": "com.yourname.copytrader"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#1D9E75"
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}
